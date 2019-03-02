@@ -22,10 +22,10 @@
 * * *
    
 ## 사진 
-![wordcounter1](/wordcounter/wordcounter1.png "wordcounter1")     
-![wordcounter2](/wordcounter/wordcounter2.png "wordcounter2")   
-![wordcounter3](/wordcounter/wordcounter3.png "wordcounter3")   
-![wordcounter4](/wordcounter/wordcounter4.png "wordcounter4")   
+![wordcounter1](/wordcounter1.png "wordcounter1")     
+![wordcounter2](/wordcounter2.png "wordcounter2")   
+![wordcounter3](/wordcounter3.png "wordcounter3")   
+![wordcounter4](/wordcounter4.png "wordcounter4")   
 * * *
    
 ## 기능
@@ -37,6 +37,8 @@
 * * * 
    
 ## 한계 및 과제
-1. 한계 :  본문 입력을 GET방식으로 하는건 사실 옳지 못하다. POST방식으로 보내줘야 하는데, 아직 수업때 다루지 않았으므로 (나중에 다룰 예정이므로) 아직은 GET방식으로 하기로 한다. 
-2. 과제 : 공백포함-미포함별 단어 세기를 구현해보기. 우리가 구현한 것은 공백을 포함하지 않은 총 단어 수이다. 공백을 포함한 총 단어수는 간단히 "공백제외 단어 수 + 공백 수"라고 볼 수 있는데,
+####1. 한계 :  
+  본문 입력을 GET방식으로 하는건 사실 옳지 못하다. POST방식으로 보내줘야 하는데, 아직 수업때 다루지 않았으므로 (나중에 다룰 예정이므로) 아직은 GET방식으로 하기로 한다. 
+####2. 과제 :   
+  공백포함-미포함별 단어 세기를 구현해보기. 우리가 구현한 것은 공백을 포함하지 않은 총 단어 수이다. 공백을 포함한 총 단어수는 간단히 "공백제외 단어 수 + 공백 수"라고 볼 수 있는데,
 공백 수는 단순히 "공백제외 단어 수 -1 개"이다. 따라서 공백 포함 총 단어 수는 (공백제외 단어 수 X 2 - 1) 개 이다.
